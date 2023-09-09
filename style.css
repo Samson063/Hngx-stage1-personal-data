@@ -4,7 +4,7 @@
 }
 
 body{
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(168, 167, 167);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,7 +38,7 @@ div p{
 img{
   width: 200px;
   height: 250px;
-  border-radius: 100px 100px 40px 40px;
+  border-radius: 100px 100px 100px 100px;
 }
 
 button{
