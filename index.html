@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hng personal data</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+  <body onload="displayCurrentTime();">
+    <div class="main-div">
+      <h1 data-testid="slackUserName">Anthony Samson</h1>
+      <img
+        data-testid="slackDisplayImage"
+        src="./slack_profile_pic.jpeg"
+        alt="Anthony Samson"
+      />
+      <p>Day: <span id="day" data-testid="currentDayOfTheWeek"></span></p>
+      <p>Time: <span id="time" data-testid="currentUTCTime"></span></p>
+      <p data-testid="myTrack">Track: Frontend</p>
+      <button>
+        <a
+          data-testid="githubURL"
+          href="https://github.com/RaphaelIsaiah/HNG-task1"
+          >Code link</a
+        >
+      </button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
